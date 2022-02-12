@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  background-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: purple;
+}
+
+.table td {
+  border: 3px solid purple;
+  width: 200px;
+  font-size: 25px;
+}
+
+.table th {
+  border: 3px solid purple;
+  width: 200px;
+  font-size: 25px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  height: fit-content;
+  border: 3px solid rgb(0, 255, 0);
+  background-color: rgb(129, 240, 129);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main_inside {
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: fit-content;
+  border: 3px solid red;
+  background-color: rgb(243, 94, 94);
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.first_inside {
+  border: 2px solid blue;
+  background-color: rgb(131, 131, 247);
+
+  display: inline-block;
+  height: 150px;
+}
+
+.a {
+  width: 20%;
+}
+.b {
+  width: 40%;
+}
+
+.c {
+  width: 30%;
+}
+
+.first_inside_inside {
+  width: 90%;
+  height: 40px;
+  background-color: rgb(241, 88, 241);
+  border: 2px solid purple;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.second {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.second_inside {
+  width: 20%;
+  border: 2px solid blue;
+  background-color: rgb(131, 131, 247);
+  height: 40px;
+
+  display: inline-block;
+}
+.third {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.third_inside {
+  height: 400px;
+  display: inline-block;
+  border: 2px solid blue;
+  background-color: rgb(131, 131, 247);
+}
+
+.d {
+  width: 25%;
+}
+
+.e {
+  width: 70%;
+}
+
+.third_inside_inside {
+  border: 2px solid purple;
+  height: 200px;
+  background-color: rgb(241, 88, 241);
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.f {
+  height: 70%;
+}
+
+.g {
+  height: 15%;
+}
