@@ -1,0 +1,38 @@
+.text {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.a1 {
+  font-size: 32px;
+}
+.a2 {
+  font-weight: 900;
+}
+.a3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.a4 {
+  color: purple;
+}
+.a5 {
+  color: green;
+}
+
+.a6 {
+  letter-spacing: 20px;
+}
+.a7 {
+  font: italic small-caps bold 16px/2 cursive;
+}
+.a8 {
+  font-variant: small-caps slashed-zero;
+}
+.a9 {
+  border: 2px solid gold;
+}
+.a0 {
+  background-color: aqua;
+}
